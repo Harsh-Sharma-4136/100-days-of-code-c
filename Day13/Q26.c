@@ -1,0 +1,22 @@
+// Name: Harsh Sharma
+// SAP ID: 590042651
+// Day:13, Question: 26
+// Date: 16-09-2026
+
+// Q26 — Print numbers from 1 to n
+
+#include <stdio.h>
+
+int main() {
+    int n, i;
+
+    printf("Enter n: ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+        printf("%d ", i);
+    }
+    printf("\n");
+
+    return 0;
+}
